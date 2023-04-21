@@ -1,0 +1,640 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&display=swap');
+
+:root{
+    --zipper: #7B3092;
+    --oxford: #d06025;
+    --taylored: #7f8040;
+    --wagon: #24697d;
+}
+body{
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+th{
+    font-weight: normal;
+}
+th.content-card-titulo{
+    font-weight: bold;
+}
+
+.todo{
+    
+    height:auto;
+    padding: 0.5%;
+}
+
+h2{
+    font-weight: 400;
+}
+h2.card-title{
+    text-align: center;
+}
+.nav-bar{
+    
+    margin-top: 5px;
+    margin-bottom: 5px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-flow:row;
+
+}
+.logo{
+    
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 3%;
+    flex: 50%;
+    max-width: 15%;
+    min-width: 200px;
+    
+}
+.btn-nav-bar{
+    
+    margin-top: 5px;
+    margin-bottom: 5px;
+    flex:50%;
+    display:flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    
+
+}
+.contenedor{
+    
+    margin-top: 25px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+
+}
+
+.hero{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    background-image: url(/assets/imgs/planeta.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+    border-bottom-right-radius: 25px;
+    max-width: 1200px;
+    margin: auto;
+
+
+}
+
+.contenido-hero{
+    
+    margin-top: 25px;
+    margin-bottom: 5px;
+    flex: wrap;
+    color: rgb(255, 255, 255);
+    flex-grow: 1;
+    padding-left: 25px;
+    padding-right: 5px;
+    flex-wrap: wrap;
+}
+
+.img-hero{
+    margin-top: 25px;
+    margin-bottom: 5px;
+    flex: wrap;
+    background-color: antiquewhite;
+    flex-grow: 1;
+}
+.button1{
+    background-color: blueviolet;
+    border-radius: 50px;
+    color: azure;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 600;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.button1:hover{
+    background-color: rgb(100, 32, 164);
+    border-radius: 50px;
+    color: azure;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 600;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.button2{
+    border: none;
+    border-radius: 50px;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.button2:hover{
+    border: none;
+    background-color: rgb(192, 192, 192);
+    border-radius: 50px;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.btn-cotizar-plan-zipper{
+    background-color: var(--zipper);
+    border-radius: 50px;
+    color: azure;
+    margin: 1rem;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 600;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.btn-cotizar-plan-zipper:hover{
+    background-color: rgb(100, 32, 164);
+    border-radius: 50px;
+    color: azure;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 600;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.btn-cotizar-plan-oxford{
+    background-color: var(--oxford);
+    border-radius: 50px;
+    color: azure;
+    margin: 1rem;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 600;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.btn-cotizar-plan-oxford:hover{
+    background-color: #94441a;
+    border-radius: 50px;
+    color: azure;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 600;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.btn-cotizar-plan-taylored{
+    background-color: var(--taylored);
+    border-radius: 50px;
+    color: azure;
+    margin: 1rem;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 600;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.btn-cotizar-plan-taylored:hover{
+    background-color: #5a5b2d;
+    border-radius: 50px;
+    color: azure;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 600;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.btn-cotizar-plan-wagon{
+    background-color: var(--wagon);
+    border-radius: 50px;
+    color: azure;
+    margin: 1rem;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 600;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.btn-cotizar-plan-wagon:hover{
+    background-color: #194b59;
+    border-radius: 50px;
+    color: azure;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 600;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn-zipper{
+    display: none;
+}
+.btn-oxford{
+    display: none;
+}
+.btn-taylored{
+    display: none;
+}
+.btn-wagon{
+    display: none;
+}
+  
+.contenedor-prestadores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:auto;
+    color: #fff;
+    padding: 3rem;
+    border-radius:25px;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+.container-btn-servicios{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+
+.container-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    color: #fff;
+    font-size: smaller;
+}
+
+/* -----------------------Cards----------------------------------*/
+.card-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+	
+  }
+  
+  .card {
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 25px;
+	flex-basis: 0;
+	flex-grow: 999;
+	width: 250px;
+    
+    margin: 5px;
+	
+	padding: 5px;
+	background-color: #fff;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  
+  .card h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+  }
+  
+  .card p {
+	font-size: 16px;
+	margin-bottom: 20px;
+  }
+  
+  .content {
+	margin-top: 20px;
+  }
+  
+  .accordion {
+	
+	color: #444;
+	cursor: pointer;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 16px;
+	transition: 0.4s;
+  }
+  
+ 
+  
+  .panel {
+	padding: 0 18px;
+	background-color: white;
+	display: none;
+	overflow: hidden;
+  }
+  
+  .panel p {
+	font-size: 16px;
+	margin: 0;
+  }
+  
+/*Acordion*/
+
+.accordion {
+    box-sizing: border-box;
+    display: flex;
+    
+    overflow: hidden;
+    width: 100%;
+    
+}
+
+.accordion-select {
+    cursor: pointer;
+    margin: 0;
+    opacity: 0;
+    z-index: 1;
+}
+
+.accordion-title {
+    position: relative;
+}
+
+.accordion-title:not(:nth-last-child(2))::after {
+    border: 1px solid transparent;
+    bottom: 0;
+    content: '';
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.accordion-title span {
+    bottom: 0px;
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.accordion-content {
+    box-sizing: border-box;
+    overflow: auto;
+    position: relative;
+    transition: margin 0.3s ease 0.1s;
+}
+
+.accordion-select:checked + .accordion-title + .accordion-content {
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+/* Generated styles starts here */
+
+.accordion {
+    border-color: #646464;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top: solid;
+    border-width: 1px;
+    flex-direction: column;
+    height: auto;
+} 
+
+.accordion-title,
+.accordion-select  {
+    background-color: #ffffff;
+    color: #646464;
+    width: 100%;
+    height: 65px;
+    font-size: 15px;
+}
+
+.accordion-select {
+    margin-bottom: -65px;
+    margin-right: -65px;
+}
+
+.accordion-title:not(:nth-last-child(2))::after {
+    border-bottom-color:#4c5157;
+    border-right-color: transparent;
+} 
+
+.accordion-select:hover + .accordion-title,
+.accordion-select:checked + .accordion-title {
+    background-color: #646464;
+    color: #ffffff;
+} 
+
+ .accordion-title span  {	
+    transform: rotate(0deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+    padding-left: 33px;
+    padding-right: 33px;
+    line-height: 65px;
+} 
+
+.accordion-content {
+    background-color: #f5f2f0;
+    color: #4c5157;
+    height: 440px;
+    margin-bottom: -440px;
+    margin-right: 0;
+    padding: 5px;
+    width: 100%;
+    
+}
+.plan-error{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+.table{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* ------------------------- Inicio Estilos De Los Planes ---------------------------------*/
+
+/* -----------------------------Inicio Content Sanatorios --------------------------------*/
+.accordion-content.content-1{
+    height: 90px;
+    margin-bottom: -90px;
+}
+.accordion-content.content-2{
+    height: 120px;
+    margin-bottom: -120px;
+}
+.accordion-content.content-3{
+    height: 160px;
+    margin-bottom: -160px;
+}
+.accordion-content.content-4{
+    height: 190px;
+    margin-bottom: -190px;
+}
+.accordion-content.content-5{
+    height: 270px;
+    margin-bottom: -270px;
+}
+.accordion-content.content-6{
+    height: 300px;
+    margin-bottom: -300px;
+}
+.accordion-content.content-7{
+    height: 340px;
+    margin-bottom: -340px;
+}
+.accordion-content.content-8{
+    height: 370px;
+    margin-bottom: -370px;
+}
+
+
+
+/* -----------------------------Fin Content Zipper --------------------------------*/
+
+
+.estilos-zipper{
+    color: var(--zipper);
+    border-color: var(--zipper);
+    
+}
+.accordion-select:hover + .accordion-title.estilos-zipper,
+.accordion-select:checked + .accordion-title.estilos-zipper {
+    background-color: var(--zipper);
+    color: #ffffff;
+    
+} 
+
+.estilos-btn-zipper{
+    color: #ffffff;
+    border-color: var(--zipper);
+    margin: 10px;
+}
+
+.estilos-oxford{
+    color: var(--oxford);
+    border-color: var(--oxford);
+}
+.accordion-select:hover + .accordion-title.estilos-oxford,
+.accordion-select:checked + .accordion-title.estilos-oxford {
+    background-color: var(--oxford);
+    color: #ffffff;
+} 
+.estilos-btn-oxford{
+    color: #ffffff;
+    border-color: var(--oxford);
+    margin: 10px;
+}
+.estilos-taylored{
+    color: var(--taylored);
+    border-color: var(--taylored);
+}
+.accordion-select:hover + .accordion-title.estilos-taylored,
+.accordion-select:checked + .accordion-title.estilos-taylored {
+    background-color: var(--taylored);
+    color: #ffffff;
+} 
+.estilos-wagon{
+    color: var(--wagon);
+    border-color: var(--wagon);
+}
+.accordion-select:hover + .accordion-title.estilos-wagon,
+.accordion-select:checked + .accordion-title.estilos-wagon {
+    background-color: var(--wagon);
+    color: #ffffff;
+} 
+
+@media  (max-width: 600px){
+    .img-hero, .btn-nav-bar{
+        display: none;
+    }
+    .contenido-hero{
+        height: 500px;
+    }
+    .btn-zipper{
+        display: flex;
+        justify-content: center;
+    }
+    .btn-oxford{
+        display: flex;
+        justify-content: center;
+    }
+    .btn-taylored{
+        display: flex;
+        justify-content: center;
+    }
+    .btn-wagon{
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
+.cta{
+    background-color:#444;
+    border-radius: 25px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    color: #444;
+    
+}
+
+.table.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+}
+
+/* ------------------------- Fin Estilos De Los Planes ------------------------------------*/
+
+/* Tipografia Monserrat*/
+
+/* Call to action*/
+
+/* para mobile agregar boton cotizar debajo de cada card*/
+
+/* Footer */
+
+/* Cotizador */
+
+/*
+
+Crear las cards con la cotizacion
+Dos botones
+Uno consultar asesor - Reenviar pagina de gracias
+Contratar plan - formulario todo la v2
+
+*/
+
+
+

@@ -1,0 +1,18 @@
+Modificaciones realizadas:
+
+*Se unifico el color zipper. Se agrego la variable --zipper a "button1".
+
+*Se quitó el titulo "Descripcion" de los Cards.
+
+*Centrado de titulos de contenido de los Cards.
+
+*Se colocó color a los titulos de los planes dentro de los Cards.
+
+*El nombre de los Sanatorios se agrego Font-weight "Normal".
+
+*El titulo "Prestadores" se agrego Font-weight "Normal".
+
+*Se agregó padding a la clase "contenedor-Prestadores".
+
+*Modificacion de la expansion del Contenido de Card
+
